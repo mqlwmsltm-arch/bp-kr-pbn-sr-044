@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 핫플 정보 – 완전정복 가이드 | 삼성동 맛집부터 핫플까지</title>
+    <meta name="description" content="진짜 삼성 핫플 정보를 한자리에! 삼성동 맛집, 카페, 크루아상 맛집부터 데이트 코스까지, 로컬이 알려주는 핫플레이스 완전정복. 전화 010-6279-0862">
+    <meta name="keywords" content="삼성 핫플 정보, 삼성 핫플, 삼성동 맛집, 삼성동 카페, 삼성 핫플레이스, 삼성 크루아상, 삼성 데이트 코스, 삼성 브런치">
+    <meta name="bpaas-design-system" content="midnight-glass">
+    <meta name="bpaas-design-theme" content="kr-midnight-glass">
+    <link rel="canonical" href="https://kr-pbn-sr-044.vercel.app/">
+    <meta property="og:title" content="삼성 핫플 정보 – 삼성동 핫플레이스 완전정복">
+    <meta property="og:description" content="삼성 핫플 정보를 한눈에! 삼성동 맛집, 카페, 핫플레이스 추천부터 크루아상 맛집까지, 진짜 로컬이 알려주는 핫플 가이드. 전화 010-6279-0862">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kr-pbn-sr-044.vercel.app/">
+    <meta property="og:locale" content="ko_KR">
+    <style>
+        /* CSS DNA: Editorial Luxury */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: #f5f0e8;
+        }
+        h1 {
+            font-size: 2.8rem;
+            line-height: 1.2;
+            margin-bottom: 24px;
+            border-left: 4px solid #c9a96e;
+            padding-left: 20px;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-top: 56px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #2a2a35;
+            padding-bottom: 12px;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            color: #d4c5a9;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+            color: #c8c4bc;
+        }
+        a {
+            color: #c9a96e;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+        a:hover {
+            border-bottom-color: #c9a96e;
+        }
+        .dropcap::first-letter {
+            font-size: 4rem;
+            float: left;
+            line-height: 0.8;
+            margin-right: 12px;
+            margin-top: 8px;
+            color: #c9a96e;
+            font-weight: 700;
+        }
+        header {
+            background: #0d0d14;
+            border-bottom: 1px solid #1e1e2a;
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .logo {
+            font-size: 1.4rem;
+            color: #f5f0e8;
+            letter-spacing: 0.1em;
+            font-weight: 400;
+        }
+        .logo span {
+            color: #c9a96e;
+        }
+        nav {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+        }
+        nav a {
+            color: #a8a4a0;
+            font-size: 0.95rem;
+            border: none;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #c9a96e;
+        }
+        .tel-link {
+            background: #c9a96e;
+            color: #0a0a0f !important;
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border: none !important;
+            transition: background 0.3s;
+        }
+        .tel-link:hover {
+            background: #b8944f;
+            color: #0a0a0f !important;
+        }
+        .hamburger-menu {
+            display: none;
+            background: none;
+            border: none;
+            color: #f5f0e8;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+        .hero {
+            padding: 80px 0 40px;
+            text-align: center;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #a8a4a0;
+            max-width: 600px;
+            margin: 0 auto 12px;
+        }
+        .card {
+            background: #12121c;
+            border: 1px solid #1e1e2a;
+            border-radius: 8px;
+            padding: 32px;
+            margin-bottom: 28px;
+            transition: border-color 0.3s;
+        }
+        .card:hover {
+            border-color: #c9a96e;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .card p:last-child {
+            margin-bottom: 0;
+        }
+        .faq-item {
+            border-bottom: 1px solid #1e1e2a;
+            padding: 20px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-item h4 {
+            font-size: 1.2rem;
+            color: #d4c5a9;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+            color: #a8a4a0;
+        }
+        footer {
+            background: #0d0d14;
+            border-top: 1px solid #1e1e2a;
+            padding: 40px 0;
+            margin-top: 80px;
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.9rem;
+            color: #6a6a78;
+            margin-bottom: 8px;
+        }
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 2rem;
+                padding-left: 16px;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            h3 {
+                font-size: 1.3rem;
+            }
+            .container {
+                padding: 0 16px;
+            }
+            nav {
+                display: none;
+                flex-direction: column;
+                background: #0d0d14;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                padding: 20px;
+                gap: 16px;
+                border-bottom: 1px solid #1e1e2a;
+            }
+            nav.active {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: block;
+            }
+            .header-inner {
+                position: relative;
+            }
+            .hero {
+                padding: 48px 0 24px;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo"><span>✦</span> 핫플<span>정보</span></div>
+            <button class="hamburger-menu" onclick="document.querySelector('nav').classList.toggle('active')">☰</button>
+            <nav>
+                <a href="/">홈</a>
+                <a href="/맛집">맛집</a>
+                <a href="/카페">카페</a>
+                <a href="/정보">정보</a>
+                <a href="tel:01062790862" class="tel-link">010-6279-0862</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h1>삼성 핫플 정보<br>완전정복 가이드</h1>
+            <p>삼성동에서 놀고 먹고 데이트하기 좋은 곳, 진짜 로컬이 다 모아봤어.</p>
+        </section>
+
+        <p class="dropcap">삼성동은 참 재미있는 동네야. 오피스와 주거지가 섞여 있어서 낮에는 비즈니스맨들로 북적이고, 밤에는 감성적인 바와 레스토랑이 빛을 발하지. 내가 삼성에서 3년째 살면서 찾아낸 '진짜' 핫플 정보를 다 풀어볼게. 관광객용 아니고, 내가 친구한테 추천하는 그런 곳들.</p>
+
+        <p>처음 삼성동 왔을 땐 "여기 뭐 있지?" 싶었는데, 알고 보니 숨은 맛집과 감성 카페가 진짜 많더라고. 특히 최근에 생긴 크루아상 맛집은 완전 대박이야. 이 정보 하나면 삼성동에서 하루 종일 알차게 놀 수 있어. 전화 010-6279-0862로 물어봐도 되고, 그냥 아래 내용 보고 따라와도 돼.</p>
+
+        <h2>삼성 핫플 정보 – 놓치면 후회하는 곳</h2>
+
+        <div class="card">
+            <h3>🥐 삼성 크루아상 맛집 '르뱅베이커리'</h3>
+            <p>진짜 크루아상 맛집 찾고 있었어? 여기 '르뱅베이커리'는 내가 2주에 한 번은 가는 곳이야. 겉은 바삭, 속은 촉촉한 게 버터 향이 입안에서 퍼져. 오픈 시간 맞춰 가야 품절 안 당해. 내 경험상 오후 2시 이후면 거의 다 팔려.</p>
+            <p>가격도 합리적이야. 크루아상 하나에 4,500원인데, 이 퀄리티에 이 가격은 삼성동에서 찾기 힘들어. 커피랑 같이 먹으면 점심으로도 손색없어. 주소는 삼성동 158-7번지인데, 네이버 지도에 치면 바로 나와.</p>
+        </div>
+
+        <div class="card">
+            <h3>☕ 삼성동 카페 '어반브루' – 감성 충전소</h3>
+            <p>일하다가 잠시 쉬고 싶을 때, 또는 친구랑 수다 떨고 싶을 때 가는 곳이야. '어반브루'는 인더스트리얼 감성이 살아있는 카페인데, 천장이 높고 조명이 따뜻해서 오래 앉아 있기 좋아. 시그니처 메뉴는 '흑임자 라떼' – 고소하면서도 달지 않아서 자꾸 손이 가.</p>
+            <p>여기서 내가 제일 좋아하는 건 창가 자리야. 거리 보면서 커피 마시면 힐링 그 자체. 와이파이도 빵빵해서 노트북 들고 가도 완전 굿. 삼성동 카페 중에서 분위기로는 탑이라고 자부해.</p>
+        </div>
+
+        <div class="card">
+            <h3>🍽️ 삼성동 맛집 '미식당' – 로컬이 추천하는 한식</h3>
+            <p>한식 먹고 싶은 날엔 '미식당'만 가. 여기 제육볶음은 내 인생 제육이야. 매콤하면서도 달콤한 양념이 밥이랑 찰떡궁합. 점심시간에는 회사원들로 줄 서는데, 그래도 기다릴 가치가 있어. 보통 10~15분 기다리면 들어갈 수 있어.</p>
+            <p>가성비도 미쳤어. 점심 정식이 9,000원인데, 반찬이 6가지나 나와. 혼밥하기도 좋고, 친구랑 둘이 와도 좋고. 삼성동 맛집 찾는다면 여기 강추야. 내 전화번호 010-6279-0862로 미리 물어보고 가도 되고.</p>
+        </div>
+
+        <h2>삼성 데이트 코스 – 하루 완벽하게 즐기기</h2>
+
+        <p>데이트 코스 고민된다고? 내가 추천하는 루트가 있어. 오전 11시쯤 '르뱅베이커리'에서 크루아상이랑 커피로 가볍게 시작해. 점심은 '미식당'에서 제육볶음으로 든든하게 먹고, 오후엔 '어반브루'에서 커피 마시면서 수다 떨어. 저녁엔 삼성동의 숨은 와인바 '루즈' 가면 완벽한 하루 마무리.</p>
+
+        <p>'루즈'는 분위기가 진짜 로맨틱해. 조명 어둡고, 와인 종류도 많아. 소믈리에가 친절하게 추천해줘서 와인 잘 모르는 사람도 부담 없어. 가격도 부담스럽지 않아서, 한 병에 3만 원대부터 시작해. 데이트 코스로 진짜 제격이야.</p>
+
+        <h2>자주 묻는 질문 – 삼성 핫플 정보</h2>
+
+        <div class="faq-item">
+            <h4>Q: 삼성동에서 주차하기 편한 곳은?</h4>
+            <p>삼성동은 주차가 좀 빡빡한 편이야. 근데 '르뱅베이커리'랑 '어반브루' 근처에 공영주차장이 있어. 30분에 1,000원 정도라 부담 없어. '미식당'은 발렛파킹 되니까 참고해.</p>
+        </div>
+
+        <div class="faq-item">
+            <h4>Q: 삼성 핫플 정보 중에 아이랑 가기 좋은 곳?</h4>
+            <p>'어반브루'는 아이랑 가도 괜찮아. 공간이 넓고, 키즈 메뉴는 없지만 음료랑 디저트가 다양해서 애들이 좋아해. '르뱅베이커리'는 크루아상이 어른 입맛용이라 아이보단 성인 취향이야.</p>
+        </div>
+
+        <div class="faq-item">
+            <h4>Q: 삼성동에 늦게까지 하는 핫플은?</h4>
+            <p>'루즈' 와인바가 밤 12시까지 해. 금요일은 1시까지도 연다고 하더라고. 그리고 삼성동 골목에 '야간 포차'라는 곳이 있는데, 거기도 늦게까지 해서 혼술하기 좋아.</p>
+        </div>
+
+        <div class="faq-item">
+            <h4>Q: 삼성 크루아상 맛집은 꼭 '르뱅베이커리'인가요?</h4>
+            <p>내 기준엔 최고야. 근데 '베이크하우스'라는 곳도 있는데, 거긴 크루아상이 좀 더 담백해. 개인 취향 차이니까 둘 다 가보는 것도 추천. 전화 010-6279-0862로 물어보면 더 자세히 알려줄게.</p>
+        </div>
+
+        <p>삼성동은 생각보다 볼 게 많아. 내가 알려준 삼성 핫플 정보로 재미있는 하루 보내길 바라. 더 궁금한 거 있으면 언제든 전화해. 진짜 로컬이 친절하게 알려줄게. ☎️ 010
+</body>
+</html>
